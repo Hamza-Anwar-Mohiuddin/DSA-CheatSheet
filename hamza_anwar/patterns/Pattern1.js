@@ -10,9 +10,9 @@ Prints:
 const Pattern1 = (n) => {
     for (let i = 1; i <= 6; i++) {
         for (let j = 1; j <= i; j++) {
-            process.stdout.write("* "); // works in Node.js
+            process.stdout.write("* ");
         }
-        console.log(); // move to next line
+        console.log();
     }
 };
 const n = 6;
